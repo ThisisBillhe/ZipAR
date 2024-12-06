@@ -66,7 +66,7 @@ Lumina-mGPT
   
 ### Simple Inference
   
-The simplest code for Lumina-mGPT inference with time and GPU profiling:
+The simplest code for Lumina-mGPT-ZipAR inference with time and GPU profiling:
   
 ```bash
 python3 lumina_mgpt/generate_examples/generate.py
