@@ -12,7 +12,7 @@ Install the pre-trained AR visual generation models and ZipAR only modifies seve
 If you find this work useful for your research, please consider citing:
 ```
 @article{he2024zipar,
-  title={# ZipAR: Accelerating Autoregressive Image Generation through Spatial Locality},
+  title={ZipAR: Accelerating Autoregressive Image Generation through Spatial Locality},
   author={He, Yefei and Chen, Feng and He, Yuanyu and He, Shaoxuan and Zhou, Hong and Zhang, Kaipeng and Zhuang, Bohan},
   journal={arXiv preprint arXiv:2412.04062},
   year={2024}
