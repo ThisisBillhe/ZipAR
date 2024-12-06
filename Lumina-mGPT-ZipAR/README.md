@@ -11,15 +11,6 @@
 [![Static Badge](https://img.shields.io/badge/Official(node1)-6B88E3?logo=youtubegaming&label=Demo%20Lumina-mGPT)](http://106.14.2.150:10020/)&#160;
 [![Static Badge](https://img.shields.io/badge/Official(node2)-6B88E3?logo=youtubegaming&label=Demo%20Lumina-mGPT)](http://106.14.2.150:10021/)&#160;
   
-</div>
-  
-<img  src="assets/demos.png">
-  
-## 📰 News
-  
--  **[2024-08-11] 🎉🎉🎉 [Training codes and documents](./lumina_mgpt/TRAIN.md) are released! 🎉🎉🎉**
-  
--  **[2024-07-08] 🎉🎉🎉 Lumina-mGPT is released! 🎉🎉🎉**
   
 ## ⚙️ Installation
   
@@ -28,9 +19,6 @@ See [INSTALL.md](./INSTALL.md) for detailed instructions.
 Note that the Lumina-mGPT implementation heavily relies on
 the [xllmx](./xllmx) module, which is evolved from [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory) for supporting
 LLM-centered multimodal tasks. Make sure it is installed correctly as a python package before going on.
-  
-## ⛽ Training
-See [lumina_mgpt/TRAIN.md](lumina_mgpt/TRAIN.md)
   
 ## 📽️ Inference
   
@@ -69,7 +57,7 @@ Lumina-mGPT
 The simplest code for Lumina-mGPT-ZipAR inference with time and GPU profiling:
   
 ```bash
-python3 lumina_mgpt/generate_examples/generate.py
+python3 lumina_mgpt/generate_examples/generate.py --zipar_window_size 16
 ```
   
 ## 🤗 Checkpoints
