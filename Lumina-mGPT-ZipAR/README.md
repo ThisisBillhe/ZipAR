@@ -62,10 +62,6 @@ python3 lumina_mgpt/generate_examples/generate.py --zipar_window_size 16
   
 ## 🤗 Checkpoints
   
-**Configurations**
-  
-<img  src="assets/config2.jpg">
-<img  src="assets/config1.jpg">
   
 **7B models**
   
