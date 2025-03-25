@@ -395,7 +395,8 @@ class Transformer(nn.Module):
     def get_fsdp_wrap_module_list(self) -> List[nn.Module]:
         return list(self.layers)
 
-
+    def position_insert(self, input_ids, next_tokens, position):
+        return torch.cat((input_ids[:, :position], next_tokens, input_ids[:, position:]), dim=1)
 
 #################################################################################
 #                      Rotary Positional Embedding Functions                    #
