@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv%20paper-2406.06525-b31b1b.svg)](https://arxiv.org/abs/2412.04062)&nbsp;
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2412.04062-b31b1b.svg)](https://arxiv.org/abs/2412.04062)&nbsp;
 
 </div>
 
@@ -11,7 +11,7 @@
 ### Evaluate
 Please follow official instructions in LlamaGen, download models, put them in the folder `./pretrained_models`, and run
 ```
-bash scripts\autoregressive\sample_c2i.sh
+bash scripts\autoregressive\sample_c2i_ddp.sh
 ```
 
 ## License
